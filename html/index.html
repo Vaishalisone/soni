@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harry Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+  /* Css Reset */
+  body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../img/mm.jpg');
+  }
+
+  .left {
+    display: inline-block;
+   /* border: 2px solid purple; */
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+.left img{
+  width: 138px;
+/* filter: invert(100%)*/
+}
+.left div{
+  text-align: center;
+font-size: 20px;
+text-align: center;
+
+
+}
+  .mid {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+   /* border: 2px solid rgb(57, 9, 189);*/
+
+  }
+
+  .right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+   /* border: 2px solid green;*/
+  }
+
+  .navbar {
+    display: inline-block;
+  }
+
+  .navbar li {
+    color: green;
+    display: inline-block;
+    font-size: 21px;
+  }
+
+  .navbar li a {
+    color: green;
+    text-decoration: none;
+    padding: 40px 28px;
+  }
+  .navbar li a:hover {
+    color: rgb(230, 230, 16);
+    text-decoration: none;
+    padding: 35px 24px;
+  }
+  .btn{
+    margin: 0px 9px;
+    background-color: green;
+    color: black;
+    padding: 3px 4px;
+    border: 2px solid green;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: rgb(51, 128, 0);
+  }
+  .container{
+    border: 2px solid  #ce2222;
+    margin: 100px 60px;
+    padding:75px;
+    width:36%;
+    border-radius: 22px;
+  }
+  .form-group input{
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 2px;
+    border: 2px solid yellowgreen;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+.container h1{
+  text-align: center;
+}
+.form-group button{
+  display: block;
+  width: 23%;
+  margin:auto;
+
+}
+</style>
+
+<body>
+  <header class="header">
+    <!-- left box for logo-->
+    <div class="left">
+      <img src="../img/mm.jpg" alt="">
+      <div> harry fitness</div>
+    </div>
+    <!-- right box for nav-->
+    <div class="mid">
+
+      <ul class="navbar">
+        <li><a href="#"> Home</a></li>
+        <li> <a href="#">AboutUs</a></li>
+        <li> <a href="#">Fitness Center</a></li>
+        <li><a href="#"> Contact Us</a></li>
+      </ul>
+
+    </div>
+    <!-- right box for buttons-->
+    <div class="right">
+<button class="btn">
+  Call Us Now</button>
+<button class="btn">EmailUs</button>
+</div>
+  </header>
+  <div class="container">
+    <h1>
+      Join the best gym of Delhi now
+    </h1>
+    <form action="noaction.php" >
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Name">
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Age">
+          <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+            <div class="form-group">
+              <input type="text" name="" placeholder="Enter your Locality">
+           <button class="btn" >Submit</button> 
+
+      </div>
+    </form> 
+   </div>
+</body>
+
+</html>
